@@ -22,7 +22,7 @@
 
         .box{
             max-width: 1100px;
-            height: 1700px;
+            height: 1800px;
             padding: 10px;
             margin-top: auto;
             margin-bottom: auto;
@@ -45,10 +45,11 @@
             /*line-height: 45px;*/
             text-align: center;
             font-size: 90px; /*90*/
-            margin-top: 120px;
+            /*margin-top: 120px;*/
+            margin-top: 50px;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 120px;
+            margin-bottom: 70px;
             border: 5px solid #26000e;
             /*border-radius: 30px;*/
             background-color: #803257;
@@ -56,16 +57,23 @@
             
         }
 
+        .disclaimer{
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+        }
+
         .center{
             display: block;
             margin-left: auto;
             margin-right: auto;
+            box-sizing: border-box;
         }
 
         .text{
             color: #FFFFFF;
             /*margin-left: 20px;*/
-            text-align: left;
             /*line-height: 1.5;
             /*margin-left: 40px;*/
         }
@@ -80,12 +88,22 @@
 
     </style>
 
-    <script type = "text/javascript" src = "script.js"></script>
+    <script type = "text/javascript">
+        function unblur() {
+            document.getElementById("Comm_Sheet").src = "Updated Commission Sheet 2022.png"
 
-    <body>
+        }
+
+    </script>
+
+    <body width = "device-width">
         <div class = "box">
             <div class = "title">NezuruiArt's Page</div>
-            <img src = "Updated Commission Sheet 2022.png" class = "center" style = "max-width: 900px; height: auto; border: 5px solid #26000e;">
+            <div class = "disclaimer & text"><i><b>Disclaimer: The Content On This Page is for Persons of Ages 18 and Older. 
+                If You are not 18 and Older, Leave This Page Immediately. This is Your Warning.</b></i></div>
+            <img src = "Updated Commission Sheet 2022 (Blurred).png" id = "Comm_Sheet" class = "center" style = "max-width: 900px; 
+            max-height: auto; border: 5px solid #26000e;" onclick = unblur()>
+            <div class = "bg-image"></div>
 
             <div class = "text">
                 <!--ul-->
