@@ -28,10 +28,9 @@
             margin-bottom: auto;
             margin-left: auto;
             margin-right: auto;
-            /*margin-left: 250px; /*perfect right not needed*/
             /*1275px is the max width on my screen*/
             border: 10px solid #26000e;
-            border-radius: 10px;
+            border-radius: 5px;
             /*outline: 10px solid #3E0E8C;*/
             border-left: 3px solid #ffbfd8;
             border-top: 3px solid #ffbfd8;
@@ -40,20 +39,27 @@
             box-sizing: border-box;
         }
 
-        .list-name{
-            width: 225px;
-            height: 45px;
+        .title{
+            width: 600px;
+            height: 140px;
             line-height: 45px;
             text-align: center;
-            font-size: 30px;
-            margin-top: 20px;
+            font-size: 89px; /*90*/
+            /*margin-top: 20px;
             margin-left: 40px;
-            margin-bottom: 20px;
-            border: 2px solid #FFFFFF;
-            border-radius: 30px;
-            background-color: #FFFFFF;
+            margin-bottom: 20px;*/
+            margin: auto;
+            border: 5px solid #000000;
+            /*border-radius: 30px;*/
+            background-color: #803257;
             box-sizing: border-box;
             
+        }
+
+        .image{
+            margin: auto;
+            width: 633px;
+            height: auto;
         }
 
         .text{
@@ -85,7 +91,8 @@
 
     <body>
         <div class = "box">
-            <div class = "list-name"><p><b>My To Do List</b></p></div> <div class = "button"><button type = "button" id = "add" onclick = "add_item()">Add Item</button></div>
+            <div class = "title"><p><b>My To Do List</b></p></div> <div class = "button"><button type = "button" id = "add" onclick = "add_item()">Add Item</button></div>
+            <div class = "image"><img src = "Updated Commission Sheet 2022.png"></div>
 
             <div class = "text">
                 <!--ul-->
