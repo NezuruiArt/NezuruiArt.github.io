@@ -61,7 +61,7 @@
 
         .tit_text{
             text-align: center;
-            font-size: 80px; /*80px, 6.26vw*/
+            /*font-size: 80px; /*80px, 6.26vw*/
             object-fit: scale-down;
             font-family: Midorima;
             color: #26000e;
@@ -95,6 +95,18 @@
             margin-left: 82%;
             /*margin-left: 280px;*/
             margin-bottom: 10px;
+        }
+
+        @media screen and (min-width: 601px) {
+            .tit_text{
+                font-size: 80px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .tit_text{
+                font-size: 30px;
+            }
         }
 
         
