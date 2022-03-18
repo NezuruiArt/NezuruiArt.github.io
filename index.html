@@ -85,39 +85,31 @@
         }
 
         .details{
-            margin-top: 3%;
-            margin-left: auto;
-            margin-right: auto;
-            width: 900px;
             box-sizing: border-box;
         }
 
         .box_1{
-            display: inline-block;
-            width: 400px; /*450px*/
-            margin-left: auto;
-            margin-right: 10.57%;
             border: 1px solid #000000;
             text-align: center;
+            box-sizing: border-box;
         }
 
         .box_2{
-            display: inline-block;
-            width: 400px;
-            margin-left: auto;
-            margin-right: auto;
             border: 1px solid #000000;
             text-align: center;
+            box-sizing: border-box;
         }
 
         .info_1 {
             text-align: left;
+            font-size: 20px;
             max-width: 400px;
             
         }
 
         .info_2{
             text-align: left;
+            font-size: 20px;
             max-width: 400px;
             
         }
@@ -135,15 +127,58 @@
             margin-bottom: 10px;
         }
 
-        @media screen and (min-width: 601px) {
+        @media screen and (min-width: 801px) {
             .tit_text{
                 font-size: 80px;
             }
+
+            .details{
+                margin-top: 3%;
+                margin-left: auto;
+                margin-right: auto;
+                width: 900px;
+            }
+
+            .box_1{
+                display: inline-block;
+                vertical-align: top;
+                width: 400px; /*450px*/
+                margin-left: auto;
+                margin-right: 10.57%;
+            }
+
+            .box_2{
+                display: inline-block;
+                vertical-align: top;
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 800px) {
             .tit_text{
                 font-size: 45px;
+            }
+
+            .details{
+                margin-top: 5%;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 900px;
+                max-height: auto;
+            }
+
+            .box_1{
+                max-width: 400px; /*450px*/
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .box_2{
+                max-width: 400px;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
 
@@ -169,24 +204,31 @@
             <div class = "bg-image"></div>
 
             <div class = "details">
-                <div class = "box_1"><u class = "text" style = "font-size: 36px; text-align: center;">Details</u><br>
+                <div class = "box_1"><u class = "text" style = "font-size: 36px; text-align: center; line-height: 2.0;">Details</u><br>
+                    <i class = "text" style = "font-size: 16px; line-height: 2.0;">Prices Below are for 1 or 2 Characters</i><br>
                     <div class = info_1>
                         <ul class = "text" style = "max-width: fit-content;">
-                            <li id = "item1">F</li>
-                            <li id = "item2">G</li>                    
-                            <li id = "item3">H</li>
-                            <li id = "item4">I</li>                    
+                            <li id = "item1">Lineart (Colored/No Color): $15</li>
+                            <li id = "item2">Full Piece (Fully Shaded): $30</li>                    
+                            <li id = "item3">Detailed Background: +$15</li>
+                            <li id = "item4">Additional Character: +$5</li>
+                            <li id = "item5">Half Body and Busts: -50% of Total Price</li>                      
                         </ul>
                     </div>
                 </div>
                 
-                <div class = "box_2"><u class = "text" style = "font-size: 36px; text-align: center;">Details</u><br>
+                <div class = "box_2"><u class = "text" style = "font-size: 36px; text-align: center; line-height: 2.0;">What I Won't Draw</u><br>
                     <div class = info_2>
                         <ul class = "text" style = "max-width: fit-content;">
-                            <li id = "item1">F</li>
-                            <li id = "item2">G</li>                    
-                            <li id = "item3">H</li>
-                            <li id = "item4">I</li>
+                            <li id = "item1">Cub (Loli/Shota)</li>
+                            <li id = "item2">Parental Incest</li>                    
+                            <li id = "item3">Hateful Art</li>
+                            <li id = "item4">Vore</li>
+                            <li id = "item5">Macro</li>
+                            <li id = "item6">Hyper</li>
+                            <li id = "item7">Scat/Watersports</li>
+                            <li id = "item8">CBT (Regular BDSM is Fine)</li>
+                            <li id = "item9">Extreme Gore</li>
                         </ul>
                     </div>
                 </div>
